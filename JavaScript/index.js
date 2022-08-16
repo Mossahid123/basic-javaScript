@@ -4,5 +4,5 @@ post.addEventListener('click' , editPost);
 
 function editPost () {
     const content = prompt('Enter your update post')
-    post.textContent= `Post ${content}`
+    post.textContent= `${content}`
 }
